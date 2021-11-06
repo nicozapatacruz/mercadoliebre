@@ -1,0 +1,64 @@
+main {
+  margin: 30px 10px;
+}
+
+.box {
+  width: 100%;
+  margin: 10px 0px;
+  padding-left: 10px;
+  height: 30px;
+  background-color: white;
+  border: 1px white solid;
+  border-radius: 5px;
+}
+.ocultar-label {
+  display: none;
+}
+
+.lista ul li {
+  list-style: none;
+}
+
+.boton {
+  width: 80%;
+  height: 35px;
+  background-color: #1259c3;
+  border: 10px solid #1259c3;
+  border-radius: 5px;
+  color: white;
+  margin: 10px 0px;
+}
+.contenedor-centrado {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.espaciado {
+  margin-bottom: 15px;
+}
+
+/* HOVER Y TRANSICIONES  */
+
+.boton:hover {
+  background-color: #0022aa;
+  border: #0022aa;
+}
+/* ---------------------------------------- */
+
+@media (min-width: 480px) {
+  .boton {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .contenedor-centrado {
+    width: 100%;
+  }
+
+  .contenedor-register {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+}
